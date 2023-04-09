@@ -70,13 +70,12 @@ fn ui<B: Backend>(f: &mut Frame<B>) {
 
     let chunks = Layout::default()
         .direction(Direction::Vertical)
-        .constraints([Constraint::Percentage(48), Constraint::Length(3), Constraint::Percentage(49)].as_ref())
+        .constraints([Constraint::Percentage(49), Constraint::Length(2), Constraint::Percentage(49)].as_ref())
         .split(f.size());
     
     let text = vec![
-        Spans::from("Pornography"),
-        Spans::from("and"),
-        Spans::from("CHentai"),
+        Spans::from("Porn"),
+        Spans::from("Hentai"),
     ];
     let paragraph = Paragraph::new(text.clone())
         .alignment(Alignment::Center)
