@@ -78,6 +78,7 @@ fn ui<B: Backend>(f: &mut Frame<B>) {
         Spans::from("Hentai"),
         Spans::from("dick"),
         Spans::from("https://hanime.tv"),
+        Spans::from("sudo dickctl cum --now"),
     ];
     let paragraph = Paragraph::new(text.clone())
         .alignment(Alignment::Center)
